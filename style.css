@@ -1,0 +1,69 @@
+*{
+  font-family: "Arial";
+  font-family: 'Roboto', sans-serif;
+  --color-primary:#00BA8D;
+  --color-grey:#4F5453;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: var(--color-grey);
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.container{
+  display:flex;
+  align-items:flex-start;
+}
+
+h1{
+  color:var(--color-primary);
+  margin: 2rem 0 3rem 0;
+
+}
+
+
+ul{
+  min-width: 150px;
+  margin-left: 3rem;
+  padding:0.5rem;
+
+}
+
+img{
+  object-fit:scale-down;
+  height:30px;
+  max-width:30px;
+  margin-right: 0.5rem; 
+}
+
+li{
+  list-style-type:none;
+  margin-bottom:1.5rem;
+  
+  
+}
+
+a:hover{
+  background-color:#e7f8f4;
+  border-radius:2pt;
+}
+
+
+a{
+  display:flex;
+  /*flex-direction:column;*/
+  align-items:center;
+  
+  text-decoration:none;
+}
+
+a > div{}
+
+#pensions{
+  
+}
