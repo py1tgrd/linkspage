@@ -92,6 +92,10 @@ a::before {
   color: #afb1b0;
 }
 
+a:hover::before {
+ color:var(--color-light); 
+}
+
 a > div {
   height: 100%;
   display: flex;
@@ -105,4 +109,4 @@ a:hover > div {
 
 #pensions {
   /* grid-column-start:1;*/
-}
+};
